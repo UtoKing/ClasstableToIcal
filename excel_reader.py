@@ -26,7 +26,7 @@ class ExcelReader:
         self.config["Classroom"] = 6
         self.config["WeekStatus"] = 7
         self.config["isClassSerialEnabled"] = [1, 8]
-        self.config["isClassTeacherEnabled"] = [1, 9]
+        self.config["isClassTeacherEnabled"] = [0, 9]
         # weekStatus: 0=Disabled 1=odd weeks 单周 2=even weeks 双周
         # 读取 excel 文件
         try:
